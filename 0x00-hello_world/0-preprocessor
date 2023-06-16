@@ -1,0 +1,2 @@
+#!/bin/bash
+CFILE="0-main.c" && OUTPUT_FILE="output.txt" && { cpp "$CFILE" > "$OUTPUT_FILE" 2>/dev/null && cat "$OUTPUT_FILE"; } || echo "Failed to preprocess the C file."
